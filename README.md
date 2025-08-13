@@ -1,54 +1,70 @@
-Automated Plant Watering System
+# Automated Plant Watering System
 
-An Arduino-based automated plant watering system that monitors soil moisture and waters plants only when needed — helping you keep your plants healthy with minimal effort.
+An **Arduino-based automated plant watering system** that monitors soil moisture and waters plants only when needed — helping you keep your plants healthy with minimal effort.
 
-Features
+---
 
-Soil Moisture Monitoring – Uses a sensor to detect when the soil is dry.
-Automated Watering – Activates a pump or valve to water plants automatically.
-Customizable Threshold – Adjust the soil moisture threshold to suit different plants.
-Water Level Monitoring (optional) – Alerts you when the water reservoir is low.
-Low Power Consumption – Designed for continuous operation with minimal energy use.
+## Features
+- **Soil Moisture Monitoring** – Uses a sensor to detect when the soil is dry.
+- **Automated Watering** – Activates a pump or valve to water plants automatically.
+- **Customizable Threshold** – Adjust the soil moisture threshold to suit different plants.
+- **Water Level Monitoring** *(optional)* – Alerts you when the water reservoir is low.
+- **Low Power Consumption** – Designed for continuous operation with minimal energy use.
 
-Hardware Requirements
+---
 
-Microcontroller: Arduino Uno/Nano or compatible board
-Soil Moisture Sensor (capacitive or resistive)
-Water Pump / Solenoid Valve
-Relay Module / MOSFET (to control pump or valve)
-Water Tubing
-Reservoir (bucket, bottle, or tank)
-Jumper Wires & Breadboard (optional)
-Power Supply (USB or external DC adapter)
-Software Requirements
+## Hardware Requirements
+- **Microcontroller** – Arduino Uno/Nano or compatible board
+- **Soil Moisture Sensor** – Capacitive or resistive
+- **Water Pump / Solenoid Valve**
+- **Relay Module / MOSFET** – To control pump or valve
+- **Water Tubing**
+- **Reservoir** – Bucket, bottle, or tank
+- **Jumper Wires & Breadboard** *(optional)*
+- **Power Supply** – USB or external DC adapter
 
-Arduino IDE
-Required libraries (if applicable, e.g., for sensor or display)
+---
 
-Installation
+## Software Requirements
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- Required libraries *(if applicable, e.g., for sensor or display)*
 
-Clone this repository:
+---
 
-git clone https://github.com/mkzafar/automated-plant-watering-system.git
-cd automated-plant-watering-system
-Open the .ino file in Arduino IDE.
-Connect your Arduino to your computer.
-Select your board & COM port from Tools > Board and Tools > Port.
-Upload the code to your board.
+## Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/mkzafar/Plant-Automation-System.git
+   cd Plant-Automation-System
+  
 
-⚙Configuration
+## Uploading the Code
+1. Open the `.ino` file in **Arduino IDE**.
+2. Connect your Arduino to your computer.
+3. Select your board and COM port from:
+   - `Tools > Board`
+   - `Tools > Port`
+4. Click **Upload** to send the code to your board.
 
-Adjust the MOISTURE_THRESHOLD value in the code to set your desired dryness level.
-Set the pump runtime to control how long it waters each cycle.
+---
 
-Usage
+## Configuration
+- Adjust **`MOISTURE_THRESHOLD`** in the code to set your desired dryness level.
+- Modify **pump runtime** to control how long the pump runs each cycle.
 
-Place the soil moisture sensor into the plant’s soil.
-Fill the water reservoir.
-Power the system — it will monitor soil moisture and water when needed.
+---
 
-Safety & Notes
+## Usage
+1. Insert the **soil moisture sensor** into the plant’s soil.
+2. Fill the **water reservoir**.
+3. Power the system — it will monitor soil moisture and water automatically when needed.
 
-Ensure the pump’s voltage matches your power supply.
-Keep electronics away from water to avoid damage.
-If using a resistive moisture sensor, expect it to degrade faster in wet conditions — consider a capacitive sensor for longevity.
+---
+
+## Safety & Notes
+- Ensure the **pump’s voltage** matches your power supply.
+- Keep **electronics away from water** to prevent damage.
+- **Resistive moisture sensors** degrade faster in wet conditions — consider a **capacitive sensor** for better longevity.
+
+---
+
