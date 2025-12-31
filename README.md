@@ -1,6 +1,6 @@
 # Automated Plant Watering System
 
-An **Arduino-based automated plant watering system** that monitors soil moisture and waters plants only when needed — helping you keep your plants healthy with minimal effort.
+An **Arduino-based automated plant watering system** that monitors soil moisture and waters plants only when needed, helping you keep your plants healthy with minimal effort.
 
 ---
 
