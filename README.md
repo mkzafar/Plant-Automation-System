@@ -64,7 +64,7 @@ An **Arduino-based automated plant watering system** that monitors soil moisture
 ## Safety & Notes
 - Ensure the **pump’s voltage** matches your power supply.
 - Keep **electronics away from water** to prevent damage.
-- **Resistive moisture sensors** degrade faster in wet conditions — consider a **capacitive sensor** for better longevity.
+- **Resistive moisture sensors** degrade faster in wet conditions 
 
 ---
 
